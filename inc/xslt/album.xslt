@@ -15,21 +15,16 @@
 			<head>
 				<meta charset="utf-8" />
 				<title>History - Photo Album</title>
-				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+				<script src="../inc/js/jquery-1.7.2.min.js"></script>
 				<!-- Photo -->
 				<script src="../inc/js/jquery.colorbox-min.js"></script>
 				<link  href="../inc/css/colorbox.css" rel="stylesheet" media="screen" />
 				<!-- Map -->
-				<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
-				<!--[if lte IE 8]>
-					<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
-				<![endif]-->
-				
-				<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
-				<script>strMapEngine = 'leaflet';</script>
+				<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+				<script>strMapEngine = 'googlev3';</script>
 				<script src="../inc/js/mxn-min.js"></script>
 				<script src="../inc/js/mxn.core-min.js"></script>
-				<script src="../inc/js/mxn-2.0.18/mxn.leaflet.core-min.js"></script>
+				<script src="../inc/js/mxn.googlev3.core-min.js"></script>
 				<!--script src="../inc/js/mapstraction.js"></script-->
 				<script src="../inc/js/global.js"></script>
 				<script src="../inc/js/album.js"></script>

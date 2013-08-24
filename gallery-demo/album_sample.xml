@@ -52,4 +52,14 @@
 		<photo_loc>Camping</photo_loc>
 		<thumb_caption>Starfish</thumb_caption>
 	</photo>
+	<photo id="4">
+		<filename>2004-dog.jpg</filename>
+		<geo>
+			<lat>49.15</lat>
+			<lon>-123.733</lon>
+		</geo>
+		<photo_city>Gabriola Island, BC</photo_city>
+		<photo_loc>Camping</photo_loc>
+		<thumb_caption>dog</thumb_caption>
+	</photo>
 </album>
